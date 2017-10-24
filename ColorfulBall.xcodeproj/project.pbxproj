@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		722DF6E61F9FDC3700B2B699 /* CircleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722DF6E51F9FDC3700B2B699 /* CircleViewModel.swift */; };
+		7290D0181F9FCB22005050CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7290D0171F9FCB22005050CE /* AppDelegate.swift */; };
+		7290D01A1F9FCB22005050CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7290D0191F9FCB22005050CE /* ViewController.swift */; };
+		7290D01D1F9FCB22005050CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7290D01B1F9FCB22005050CE /* Main.storyboard */; };
+		7290D01F1F9FCB22005050CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7290D01E1F9FCB22005050CE /* Assets.xcassets */; };
+		7290D0221F9FCB22005050CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7290D0201F9FCB22005050CE /* LaunchScreen.storyboard */; };
+		7D7D792022AB10B9F896D14C /* Pods_ColorfulBall.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19AADE07403CD71272E74226 /* Pods_ColorfulBall.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		19AADE07403CD71272E74226 /* Pods_ColorfulBall.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ColorfulBall.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FB1836DFDCE4E4FEFF9587E /* Pods-ColorfulBall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorfulBall.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ColorfulBall/Pods-ColorfulBall.debug.xcconfig"; sourceTree = "<group>"; };
+		5C81BE96F4E3807FC3D8B73E /* Pods-ColorfulBall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorfulBall.release.xcconfig"; path = "Pods/Target Support Files/Pods-ColorfulBall/Pods-ColorfulBall.release.xcconfig"; sourceTree = "<group>"; };
+		722DF6E51F9FDC3700B2B699 /* CircleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleViewModel.swift; sourceTree = "<group>"; };
+		7290D0141F9FCB22005050CE /* ColorfulBall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorfulBall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7290D0171F9FCB22005050CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7290D0191F9FCB22005050CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7290D01C1F9FCB22005050CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7290D01E1F9FCB22005050CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7290D0211F9FCB22005050CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7290D0231F9FCB22005050CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7290D0111F9FCB22005050CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D7D792022AB10B9F896D14C /* Pods_ColorfulBall.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7290D00B1F9FCB22005050CE = {
+			isa = PBXGroup;
+			children = (
+				7290D0161F9FCB22005050CE /* ColorfulBall */,
+				7290D0151F9FCB22005050CE /* Products */,
+				EC1A6E92D0B6E27B2F8F24B9 /* Pods */,
+				D871D4D8D34580E0A09AF40B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7290D0151F9FCB22005050CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7290D0141F9FCB22005050CE /* ColorfulBall.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7290D0161F9FCB22005050CE /* ColorfulBall */ = {
+			isa = PBXGroup;
+			children = (
+				7290D0171F9FCB22005050CE /* AppDelegate.swift */,
+				7290D0191F9FCB22005050CE /* ViewController.swift */,
+				7290D01B1F9FCB22005050CE /* Main.storyboard */,
+				7290D01E1F9FCB22005050CE /* Assets.xcassets */,
+				7290D0201F9FCB22005050CE /* LaunchScreen.storyboard */,
+				7290D0231F9FCB22005050CE /* Info.plist */,
+				722DF6E51F9FDC3700B2B699 /* CircleViewModel.swift */,
+			);
+			path = ColorfulBall;
+			sourceTree = "<group>";
+		};
+		D871D4D8D34580E0A09AF40B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				19AADE07403CD71272E74226 /* Pods_ColorfulBall.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC1A6E92D0B6E27B2F8F24B9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4FB1836DFDCE4E4FEFF9587E /* Pods-ColorfulBall.debug.xcconfig */,
+				5C81BE96F4E3807FC3D8B73E /* Pods-ColorfulBall.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7290D0131F9FCB22005050CE /* ColorfulBall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7290D0261F9FCB22005050CE /* Build configuration list for PBXNativeTarget "ColorfulBall" */;
+			buildPhases = (
+				3E1F0B1F14DC1EC5EB9E2C73 /* [CP] Check Pods Manifest.lock */,
+				7290D0101F9FCB22005050CE /* Sources */,
+				7290D0111F9FCB22005050CE /* Frameworks */,
+				7290D0121F9FCB22005050CE /* Resources */,
+				DB7BDD0F611608C792367543 /* [CP] Embed Pods Frameworks */,
+				43E7AEE14455A38CACB42E27 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColorfulBall;
+			productName = ColorfulBall;
+			productReference = 7290D0141F9FCB22005050CE /* ColorfulBall.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7290D00C1F9FCB22005050CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Norbert Czirjak";
+				TargetAttributes = {
+					7290D0131F9FCB22005050CE = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7290D00F1F9FCB22005050CE /* Build configuration list for PBXProject "ColorfulBall" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7290D00B1F9FCB22005050CE;
+			productRefGroup = 7290D0151F9FCB22005050CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7290D0131F9FCB22005050CE /* ColorfulBall */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7290D0121F9FCB22005050CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7290D0221F9FCB22005050CE /* LaunchScreen.storyboard in Resources */,
+				7290D01F1F9FCB22005050CE /* Assets.xcassets in Resources */,
+				7290D01D1F9FCB22005050CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3E1F0B1F14DC1EC5EB9E2C73 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ColorfulBall-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43E7AEE14455A38CACB42E27 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ColorfulBall/Pods-ColorfulBall-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB7BDD0F611608C792367543 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ColorfulBall/Pods-ColorfulBall-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ColorfulBall/Pods-ColorfulBall-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7290D0101F9FCB22005050CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				722DF6E61F9FDC3700B2B699 /* CircleViewModel.swift in Sources */,
+				7290D01A1F9FCB22005050CE /* ViewController.swift in Sources */,
+				7290D0181F9FCB22005050CE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7290D01B1F9FCB22005050CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7290D01C1F9FCB22005050CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7290D0201F9FCB22005050CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7290D0211F9FCB22005050CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7290D0241F9FCB22005050CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7290D0251F9FCB22005050CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7290D0271F9FCB22005050CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FB1836DFDCE4E4FEFF9587E /* Pods-ColorfulBall.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 295STQ54Z5;
+				INFOPLIST_FILE = ColorfulBall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.favorinet.ColorfulBall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7290D0281F9FCB22005050CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C81BE96F4E3807FC3D8B73E /* Pods-ColorfulBall.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 295STQ54Z5;
+				INFOPLIST_FILE = ColorfulBall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.favorinet.ColorfulBall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7290D00F1F9FCB22005050CE /* Build configuration list for PBXProject "ColorfulBall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7290D0241F9FCB22005050CE /* Debug */,
+				7290D0251F9FCB22005050CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7290D0261F9FCB22005050CE /* Build configuration list for PBXNativeTarget "ColorfulBall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7290D0271F9FCB22005050CE /* Debug */,
+				7290D0281F9FCB22005050CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7290D00C1F9FCB22005050CE /* Project object */;
+}
